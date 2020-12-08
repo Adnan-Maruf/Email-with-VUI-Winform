@@ -1,0 +1,56 @@
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\bin\Debug\VoiceBox Beta.pdb
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxIdel.resources
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxMain.resources
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox_Beta.Properties.Resources.resources
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox Beta.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox Beta.exe
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox Beta.pdb
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe.config
+C:\Users\User\Desktop\VoiceBox Beta\VoiceBox Beta\obj\Debug\VoiceBox_Beta.ucLogIn.resources
+C:\Users\User\Dropbox\CODE\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe.config
+C:\Users\User\Dropbox\CODE\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.exe
+C:\Users\User\Dropbox\CODE\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.pdb
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\DemoEmailServer.mdf
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\DemoEmailServer_log.ldf
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe.config
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.pdb
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\NAudio.dll
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.AccountSettings.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.AP_Restart.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.CustomMessageBox.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxIdel.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxMain.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.HomeUC.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.MailLoader.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.Properties.Resources.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.UIsettings.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.ucLogIn.resources
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.exe
+C:\Users\User\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.pdb
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\DemoEmailServer.mdf
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\DemoEmailServer_log.ldf
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe.config
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.exe
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\VoiceBox Beta.pdb
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\bin\Debug\NAudio.dll
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.csprojAssemblyReference.cache
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.AccountSettings.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.AP_Restart.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.Confirmation.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.CustomMessageBox.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxIdel.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.voiceBoxMain.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.HomeUC.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.MailLoader.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.Properties.Resources.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.UIsettings.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox_Beta.ucLogIn.resources
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.csproj.GenerateResource.cache
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.csproj.CopyComplete
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.exe
+C:\Users\adnan\Desktop\VoiceBox Beta.Final\VoiceBox Beta\obj\Debug\VoiceBox Beta.pdb

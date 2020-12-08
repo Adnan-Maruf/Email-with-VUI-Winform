@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B34326D-E058-479A-89D3-65AE7234B2CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VoiceBox_Beta</RootNamespace>
+    <AssemblyName>VoiceBox Beta</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="NAudio, Version=1.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Speech">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountSettings.Designer.cs">
+      <DependentUpon>AccountSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AP_Restart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AP_Restart.Designer.cs">
+      <DependentUpon>AP_Restart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmation.Designer.cs">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemoEmailServerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DemoEmailServerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeUC.Designer.cs">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailLoader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MailLoader.Designer.cs">
+      <DependentUpon>MailLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountSettings.resx">
+      <DependentUpon>AccountSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AP_Restart.resx">
+      <DependentUpon>AP_Restart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmation.resx">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUC.resx">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailLoader.resx">
+      <DependentUpon>MailLoader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIsettings.resx">
+      <DependentUpon>UIsettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Icon1.png" />
+    <None Include="Resources\VoiceBoxIdel.png" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UIsettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIsettings.Designer.cs">
+      <DependentUpon>UIsettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-log-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SentItems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Draftl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\VerticalLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizeIc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-messages-silhouette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SleepIC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeIc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrlDwnIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrlUpIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_US_APIco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePgIco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePageDesign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRightScrlIco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btLeftScrlIco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCancelIco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnDeleteIco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnReplyIco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnForwardIco_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconVB4_Main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TnD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconVBmainBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatusBarActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SBI_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CmpAtchCncl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hidePass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showPass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DemoEmailServer.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoEmailServer_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DemoEmailServer.mdf</DependentUpon>
+    </Content>
+    <Content Include="NAudio.dll" />
+    <None Include="Resources\icons8-checkmark-48.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\Inbox_.png" />
+    <None Include="Resources\003-notificationA.png" />
+    <None Include="Resources\002-messages-silhouetteA.png" />
+    <None Include="Resources\MBInfov1.png" />
+    <None Include="Resources\MBInfov2.png" />
+    <None Include="DemoEmailServerDataSet.xsc">
+      <DependentUpon>DemoEmailServerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DemoEmailServerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DemoEmailServerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DemoEmailServerDataSet.xss">
+      <DependentUpon>DemoEmailServerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\SaveToPCICo.png" />
+    <None Include="Resources\BackToInbox_F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3 @@
+[UserSettings]
+voice_recognition_state=1
+help_assist_state=0
